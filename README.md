@@ -96,6 +96,12 @@ Caso fique bugado e sem as fontes no passo 7 da documentação, siga o doc [Inst
     curl -s "https://laravel.build/example-app?with=mysql,redis,mailpit" | bash
 ```
 
+Os comandos no terminal do PHPSTORM serão utilizados agora o `./vendor/bin/sail`
+
+```Comandos
+    ./vendor/bin/sail artisan migrate
+```
+
 
 <br>
 
