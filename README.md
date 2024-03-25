@@ -53,6 +53,19 @@ Abaixo o docker e configurações básicas.
 	<img src="images/docker.gif" alt="Docker" width="100%">
 </p>
 
+### :zap: ZSH e PowerLevel10k
+
+```
+    # Antes instale o Curl
+    sudo apt install curl
+```
+
+> :zap: Configuração do Zsh + Powerlevel 10k seguir conforme documentação do link [`Setup Zsh + Oh my Zsh + Powerlevel10k`](https://medium.com/@satriajanaka09/setup-zsh-oh-my-zsh-powerlevel10k-on-ubuntu-20-04-c4a4052508fd)
+
+
+### :zap: Adicionais documentações de configurações
+[`Digital Ocean` - Como instalar e configurar o Laravel com o Docker Compose no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-laravel-with-docker-compose-on-ubuntu-20-04-pt)
+
 <br>
 
 
