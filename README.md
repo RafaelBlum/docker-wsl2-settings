@@ -62,12 +62,42 @@ Abaixo o docker e configurações básicas.
 
 > :zap: Configuração do Zsh + Powerlevel 10k seguir conforme documentação do link [`Setup Zsh + Oh my Zsh + Powerlevel10k`](https://medium.com/@satriajanaka09/setup-zsh-oh-my-zsh-powerlevel10k-on-ubuntu-20-04-c4a4052508fd)
 
+```Dicas
+    # para usar o vim - editor
+    vim ~/.zshrc
+    
+    # caso não tenha permissão
+    sudo vim~/.zshrc
+    
+    #sair do editor: ESC + :wq + enter
+```
+
+Caso fique bugado e sem as fontes no passo 7 da documentação, siga o doc [Installing Powerline fonts on Windows 10](https://gist.github.com/stramel/658d702f3af8a86a6fe8b588720e0e23)
+
+- Antes do passo 7 faça:
+```
+    sudo apt install jq
+    
+    # important: Aqui gerou erro - se alguém souber [parse error: Invalid numeric literal at line 1, column 10]
+    curl https://api.punkapi.com/v2/beers | jq
+``` 
+
+
 
 ### :zap: Adicionais documentações de configurações
 [`Digital Ocean` - Como instalar e configurar o Laravel com o Docker Compose no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-laravel-with-docker-compose-on-ubuntu-20-04-pt)
 
 <br>
 
+## :zap: Criar projeto laravel | Docker Installation Using Sail
+[Doc laravel com SAIL | create project](https://laravel.com/docs/11.x#docker-installation-using-sail)
+
+```create project laravel
+    curl -s "https://laravel.build/example-app?with=mysql,redis,mailpit" | bash
+```
+
+
+<br>
 
 ### Contatos
 
