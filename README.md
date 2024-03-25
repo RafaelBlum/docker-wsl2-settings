@@ -50,7 +50,7 @@ Essa conta é necessária para depois quando você for abrir o docker.
 Abaixo o docker e configurações básicas.
 
 <p align="center">
-	<img src="images/docker.gif" alt="Docker" width="440px">
+	<img src="images/docker.gif" alt="Docker" width="100%">
 </p>
 
 <br>
