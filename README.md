@@ -13,16 +13,47 @@ O objetivo deste repositório e demonstrar como `instalar o Docker desktop para 
 > [:books: `Subsistema Windows para Linux`](https://learn.microsoft.com/pt-br/windows/wsl/)
 
 
-### :zap: ...
+### :zap: Instalando WSL 2
 
-:speech_balloon: ...
+> Importante seu sistema estar atualizado. Caso não esteja vai em `configurações` e `atualização e segurança`.
+
+Abra o Power Shell como administrador para fazer este processo.
 
 ```
-    code
+    # Instalação do WSL
+    wsl --install
+    
+    # Caso ocorra algum problema, você pode usar o comando
+    wsl --install -d Ubuntu
+    
+    # Versão - importante fechar e abrir novamente o power shell
+    wsl -l -v
 ```
 
-### :zap: ...
+Agora você pode ir no botão iniciar do Windowns e abrir o terminal do Ubunto e atualizar o Linux.
+```
+    # update
+    sudo apt update
+    
+    # install Vim - Editor de texto
+    sudo apt install vim
+```
 
+
+### :zap: Download Docker Desktop on Windowns
+
+> [:books: `Docker Engine`](https://docs.docker.com/engine/install/)
+
+Instalar o Docker é bem facil e enquanto o sistema é instalado, `recomendamos` você criar uma conta no site do [Docker hub](https://hub.docker.com)
+Essa conta é necessária para depois quando você for abrir o docker.
+
+Abaixo o docker e configurações básicas.
+
+<p align="center">
+	<a href="#"  target="_blank" title="Docker">
+		<img src="images/docker.gif" alt="Docker" width="440px">
+	</a>
+</p>
 
 <br>
 
